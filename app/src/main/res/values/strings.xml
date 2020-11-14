@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Midterm</string>
+    <string name="add">Add Task Button</string>
 </resources>

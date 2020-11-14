@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -20,7 +21,11 @@ class MainActivity : AppCompatActivity() {
         val layoutManager = LinearLayoutManager(this)
         recycle_view.layoutManager = layoutManager
         recycle_view.adapter = taskListAdapter
+
+        //toast("${it.title} Clicked")
+        button.setOnClickListener { }
     }
+
 
 
 }
